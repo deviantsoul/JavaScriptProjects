@@ -1,4 +1,4 @@
-alert("Math Practice for Java! Goodluck!")
+alert(Math.random()*120)
 
 function add_numbers()  {
     var addition = 2+2;
