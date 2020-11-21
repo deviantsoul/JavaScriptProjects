@@ -1,3 +1,3 @@
-var B = "\"I am the greatest" + "of all time\"" + "-Muhammad Ali."
-document.write(B)
+var B = "Hansen", C = "Glad", I = "Ivy";
+document.write(I)
 
