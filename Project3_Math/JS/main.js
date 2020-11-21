@@ -29,3 +29,8 @@ function modulus_Math()     {
     var reMainder = 25 % 6;
     document.getElementById("Math6").innerHTML= "Remainder of 25/6 is " + reMainder;
 }
+
+function negation_Operator()    {
+    var x = 20;
+    document.getElementById("Math7").innerHTML = -x;
+}
