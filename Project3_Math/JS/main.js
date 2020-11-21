@@ -34,3 +34,11 @@ function negation_Operator()    {
     var x = 20;
     document.getElementById("Math7").innerHTML = -x;
 }
+
+var x = 2
+x++;
+document.write(x);
+
+var y = 10
+y--;
+document.write(y);
