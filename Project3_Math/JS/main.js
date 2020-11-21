@@ -42,3 +42,4 @@ document.write(x);
 var y = 10
 y--;
 document.write(y);
+
