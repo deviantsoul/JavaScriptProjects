@@ -17,3 +17,8 @@ function divide_numbers()       {
     var divide = 48/6;
     document.getElementById("Math4").innerHTML="48 divide it by 6 is = " + divide;
 }
+
+function more_Math()    {
+    var allmath= (1+2) * 10/5 - 1;
+    document.getElementById("Math5").innerHTML = "The result is " + allmath;
+}
