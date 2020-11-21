@@ -1,3 +1,4 @@
-var B = "Hansen", C = "Glad", I = "Ivy";
-document.write(I)
+var reds = "I have the reds."
+var reds = reds.fontcolor("red");
+document.write(reds)
 
