@@ -5,5 +5,6 @@ function my_Dictionary()    {
         Weight: "Heavy",
         Class: "Warrior"
     };
+    delete Weapon.Name
     document.getElementById("Dictionary").innerHTML = Weapon.Name;
 }
