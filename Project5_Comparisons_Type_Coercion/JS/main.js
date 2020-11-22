@@ -15,3 +15,4 @@ function my_Negative_Infinity()  {
 document.write(10>3) AND (40<3);
 
 console.log(2+2);
+
