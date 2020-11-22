@@ -4,8 +4,15 @@
         <meta charset="UTF-8">
         <script src="./JS/main.js"></script>
     </head>
-
-    <body>
         
+    <body>
+        <p id="Test" onclick="my_Test()">Click me!</p>
+        <p id="Test2"></p>
+        <p id="Test3"></p>
+            <script>
+            document.getElementById("Test2").innerHTML = isNaN('This is a string');
+
+            document.getElementById("Test3").innerHTML = isNaN('007');
+            </script>
     </body>
 </html>
