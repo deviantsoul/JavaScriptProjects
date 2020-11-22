@@ -4,3 +4,5 @@ function Ride_Function()    {
     Can_ride = (Height <52) ? "You are too short": "You are tall enough";
     document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
 }
+
+document.write(Smaller = (5<3) ? "Left is smaller": "Right is smaller");
