@@ -11,27 +11,28 @@
         <p id="Test3"></p>
         <p id="Test4" onclick="my_Infinity()">There and beyond!</p>
         <p id="Test5" onclick="my_Negative_Infinity()">Minus There and beyond!</p>
+        <p id="Not" onclick="not_Function()">True? NOT!</p>
         
-            <script>
-            document.getElementById("Test2").innerHTML = isNaN('This is a string');
+            <script>  //I wrote it here because somehow if I put it on main.js it wont work
+            document.getElementById("Test2").innerHTML = isNaN('This is a string');  //isnan
 
-            document.getElementById("Test3").innerHTML = isNaN('007');
+            document.getElementById("Test3").innerHTML = isNaN('007');  //isnan
 
-            document.write(2E310);
+            document.write(2E310);  //infinite
 
-            document.write(-3E310);
+            document.write(-3E310);  //-infinite
 
-            document.write("50" + 50);
+            document.write("50" + 50);  //combining string and number
 
-            console.log(2+2);
+            console.log(2+2);  //just the log
 
-            console.log(3>40);
+            console.log(3>40);  //should return false
 
-            document.write(5==2);
+            document.write(5==2);  //comparing
             
-            document.write(5>9 && 7>2);
+            document.write(5>9 && 7>2);  //should return false
 
-            document.write(5>3 || 6>3);
+            document.write(5>3 || 6>3);  //OR 
             </script>
     </body>
 </html>
