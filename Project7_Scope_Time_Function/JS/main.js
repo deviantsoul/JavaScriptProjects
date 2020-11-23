@@ -31,10 +31,22 @@ Add_numbers_6();
 
 function get_Date() {
     if (new Date().getHours()>18)   {
-        document.getElementById("Greeting").innerHTML = "How was your day sir Hansen?";
+        document.getElementById("Greeting").innerHTML = "How was your day sir?";
     }
 }
 
 function get_Time()     {
     document.getElementById("CurrentTime").innerHTML = Date();
+}
+
+function Game_Function()     {
+    var letter = document.getElementById("Game").value;
+    var text;    
+    if ( letter === "Cyberpunk")    {
+        Text = "You are awesome!";
+    }
+    else    {
+        Text = "You suck!";
+    }
+    document.getElementById("Game you playing right now").innerHTML = Text;
 }
