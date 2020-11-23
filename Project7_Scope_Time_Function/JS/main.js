@@ -50,3 +50,18 @@ function Game_Function()     {
     }
     document.getElementById("Game you playing right now").innerHTML = Text;
 }
+
+function Time_Function()    {
+    var Time = new Date().getHours();
+    var Reply;
+    if (Time <12 == Time > 0)   {
+        Reply = "It is morning time!";
+    }
+    else if (Time > 12 == Time <18) {
+        Reply = "It is the afternoon.";
+    }
+    else    {
+        Reply = "Time to sleep.";
+    }
+    document.getElementById("Time of the day").innerHTML = Reply;
+}
