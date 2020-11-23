@@ -28,3 +28,9 @@ function Add_numbers_6()    {
 }
 Add_numbers_5();
 Add_numbers_6();
+
+function get_Date() {
+    if (new Date().getHours()<18)   {
+        document.getElementById("Greeting").innerHTML = "How are you today, sir Hansen?";
+    }
+}
