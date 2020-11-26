@@ -23,3 +23,8 @@ function on_search()        {
     var me = str.search("dark");
     document.getElementById("challenge").innerHTML = me;
 }
+
+function string_method()    {
+    var x = 1434
+    document.getElementById("Numbers_String").innerHTML = x.toString();
+}
