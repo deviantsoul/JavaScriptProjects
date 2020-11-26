@@ -28,3 +28,8 @@ function string_method()    {
     var x = 1434
     document.getElementById("Numbers_String").innerHTML = x.toString();
 }
+
+function my_Precision()     {
+    var x = 9987839048044.90123801298301;
+    document.getElementById("Precision").innerHTML = x.toPrecision(15);
+}
