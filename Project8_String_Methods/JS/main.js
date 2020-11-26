@@ -33,3 +33,15 @@ function my_Precision()     {
     var x = 9987839048044.90123801298301;
     document.getElementById("Precision").innerHTML = x.toPrecision(15);
 }
+
+function my_Fixed()     {
+    var num = 92.389049
+    var n = num.toFixed(5);
+    document.getElementById("fix").innerHTML = n;
+}
+
+function my_Value()     {
+    var str = "\"I am the greatest! There will be no one like me!\" <br>- Muhammad Ali"
+    var great = str.valueOf();
+    document.getElementById("value").innerHTML = great;
+}
