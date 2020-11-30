@@ -26,3 +26,11 @@ function dog_pics()     {
     Dog_Picture[3] = "licking";
     document.getElementById("Dog").innerHTML = "Right here, Barky is " + Dog_Picture[3] + ".";
 }
+
+function constant_function()    {
+    const Pokemon = {type: "fire", habitat: "Route 3", Shiny: "shiny"};
+    Pokemon.evolve = "Yes";
+    Pokemon.Shiny = "not shiny";
+    Pokemon.type = "water";
+    document.getElementById("Constant").innerHTML = "My favorite pokemon is " + Pokemon.type + " and it should be " + Pokemon.Shiny;
+}
