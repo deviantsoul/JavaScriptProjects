@@ -51,4 +51,13 @@ function my_Return(X, Y)    {
 }
     document.getElementById("return").innerHTML = B;
 
-    
+let car = {
+    make: "Tesla",
+    model: "Roadrunner",
+    year: "2020",
+    color: "red",
+    description: function() {
+        return "I want to buy the " + " " + this.model + " " + this.make + " " + this.year + " and the color should be " + this.color + ".";
+    }
+}
+document.getElementById("Car_Object").innerHTML = car.description();
