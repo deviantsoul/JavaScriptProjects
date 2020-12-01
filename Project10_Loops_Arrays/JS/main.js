@@ -34,3 +34,14 @@ function constant_function()    {
     Pokemon.type = "water";
     document.getElementById("Constant").innerHTML = "My favorite pokemon is " + Pokemon.type + " and it should be " + Pokemon.Shiny;
 }
+
+function my_let()   {
+    var Y = 143;
+    document.write(Y);
+    {
+        let Y = 123;
+        document.write("<br>" + Y);
+    }
+    document.write("<br>" + Y);
+}
+
