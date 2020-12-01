@@ -45,3 +45,10 @@ function my_let()   {
     document.write("<br>" + Y);
 }
 
+var B = my_Return(5, 12)
+function my_Return(X, Y)    {
+    return X * Y;
+}
+    document.getElementById("return").innerHTML = B;
+
+    
