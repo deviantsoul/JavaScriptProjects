@@ -1,0 +1,23 @@
+h1  {
+    text-align: center;
+    background-color: rgba(230, 68, 68, 0.493);
+}
+
+h3  {
+    text-align: center;
+    background-color: rgba(255, 138, 138, 0.425);
+}
+
+ul      {
+    text-align: center;
+    background-color: rgba(72, 234, 255, 0.548);
+}
+
+li      {
+    text-align: center;
+    display: block;
+}
+
+.button_container   {
+    text-align: center;
+}
