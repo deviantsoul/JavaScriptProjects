@@ -12,8 +12,8 @@ function game_function()    {
         case "Witcher 3":
             game_output = "Witcher 3" + game_string;
         break;
-        case "Warcraft":
-            game_output = "Warcraft" + game_string;
+        case "Red Dead Redemption":
+            game_output = "Red Dead Redemption" + game_string;
         break;
         case "Starcraft":
             game_output = "Starcraft" + game_string;
@@ -40,4 +40,9 @@ function game_function()    {
             game_output = "Please be civil and follow instructions. You can read right? Then choose from the list! Or else a rabbit will drag you to the hole of void."
     }
     document.getElementById("output").innerHTML = game_output;
+}
+
+function helloFunction()    {
+    var A = document.getElementsByClassName("Click");
+    A[0].innerHTML = "Abra Kadakbra! The text has changed!";
 }
