@@ -6,7 +6,7 @@
           <link rel="stylesheet" type="text/css" href="./CSS/main.css">                   
       </head>
             
-      <body>
+      <body onload="setupCanvas();">
           <H1>What is your favorite game?</H1>
           <H3>Pick your game from the list:</H3>
           <ul>
@@ -28,11 +28,14 @@
                 <button onclick="game_function()">Submit</button>
                 <p id="output"></p>
             </div>
-            <div class="button_container">
-                <canvas id="box" width="500" height="300" style="border: 5px solid black;"></canvas>
+            <div class="button_container">                
                 <h1 class="Click">This text will change!</h1>
                 <h3 class="Click">This text will not change!</h3>
                 <button onclick="helloFunction()">Assigntment 57</button>
             </div>
+            <div>
+                <canvas id="box" width="1080" height="800" style="border: 5px solid rgba(251, 255, 0, 0.589);">Sorry your browser does not support the canvas tag.</canvas>
+            </div>
+            
     </body>
 </html>

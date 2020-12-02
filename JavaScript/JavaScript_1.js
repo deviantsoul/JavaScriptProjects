@@ -46,3 +46,18 @@ function helloFunction()    {
     var A = document.getElementsByClassName("Click");
     A[0].innerHTML = "Abra Kadakbra! The text has changed!";
 }
+
+function setupCanvas()  {       //setting the function for canvas
+    var canvas = document.getElementById("box");        //setting up the variable from the box id
+
+    if(box.getContext)  {       //if argument to get context
+        var layout = box.getContext('2d');  //the layout should be 2d
+
+        var img = new Image();      //setting up the image as new variable
+        img.src = "./Images/canvas.jpg";        //source of iamge
+        img.onload = function()     {       //onload function
+            layout.drawImage(img, 0, 0, 1080, 800);    //sx, sy, swidth, sheight
+        }
+    }
+
+}
