@@ -56,8 +56,18 @@ function setupCanvas()  {       //setting the function for canvas
         var img = new Image();      //setting up the image as new variable
         img.src = "./Images/canvas.jpg";        //source of iamge
         img.onload = function()     {       //onload function
-            layout.drawImage(img, 0, 0, 1080, 800);    //sx, sy, swidth, sheight
+            layout.drawImage(img, 50, 50, 980, 700);    //sx, sy, swidth, sheight
         }
     }
 
 }
+
+var C = document.getElementById("box");
+var ctx = C.getContext('2d');
+
+var grd = ctx.createLinearGradient(0,0,170,0);
+grd.addColorStop(0, "yellow");
+grd.addColorStop(1, "purple");
+
+ctx.fillStyle = grd;
+ctx.fillRect(0, 0, 1080, 800);
