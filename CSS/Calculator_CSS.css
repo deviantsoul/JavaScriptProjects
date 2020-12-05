@@ -79,3 +79,13 @@ button:hover    {
     grid-gap: 20px;
     padding: 20px;
 }
+
+h1  {
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.562);
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.507);
+    font-weight: bolder;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
